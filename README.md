@@ -1,6 +1,6 @@
 # ai2_WheelchairAssistent
 
-longterm project of zhaw ai2 course
+This is a project of zhaw ai2 course. A proof of concept for a wheelchair driving assistent.
 
 ## summary
 
@@ -24,6 +24,10 @@ To run the project simply execute
 
 `` py run.py ``
 
+### CAN-data
+
+Follow [these instructions](https://ch.mathworks.com/matlabcentral/answers/2086013-why-is-my-vector-can-device-not-detected-in-vehicle-network-toolbox-for-windows-10-and-11) to install the CAN-Drivers for the matlab Vehicle Network Toolbox and run the get_can_data skript, or use the example data from the data folder as well as the video output.
+
 ## custom trained yolo v8 model
 
 You only look once (YOLO) is a state-of-the-art, real-time object detection system.
@@ -36,7 +40,3 @@ This repository hosts a custom-trained YOLOv8 model optimized for detecting side
 ### sidewalk detection examples
 
 ![example batch detections](model/val_batch2_labels.jpg)
-
-## heuristics
-
-tbd.
